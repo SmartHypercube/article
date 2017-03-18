@@ -27,3 +27,7 @@ date: 2017-02-28
 ![Bingo~](效果.png)
 
 P.S. 借助SSHFS，我终于可以在Windows系统中有一个好用的Linux开发环境了（bash on Windows有太多问题，不行）。现在采用的做法是安装一个不带图形界面的裸Debian虚拟机，添加一块Host-only网卡，配置开机自动启动SSH服务器，然后最小化虚拟机窗口，用自己喜欢的SSH客户端操作它、用SSHFS在本地挂载其中的文件，用gVim舒适地编辑程序。
+
+补充1：Dokan依赖于x86版本的VC++2013运行时库，如果没有的话安装Dokan时它会提示你下载，点Yes并去下载安装即可，然后取消掉Dokan的安装程序，重新启动一次并完成安装。
+
+补充2：Dokan的卸载程序有点问题，卸载不干净。卸载后需要手动删除`C:\Windows\System32\drivers\dokan.sys`这个文件，否则无法重新安装。
