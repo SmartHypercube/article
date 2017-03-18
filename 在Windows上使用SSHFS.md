@@ -22,9 +22,9 @@ date: 2017-02-28
 3. 安装Dokan，解压win-sshfs，运行解压出来的程序。
 4. 在右下角通知区域中点win-sshfs的图标，在弹出的管理器中点`Add`，填写配置，`Save`并`Mount`即可。
 
-![管理器](管理器.png)
+![管理器](/在Windows上使用SSHFS/管理器.png)
 
-![Bingo~](效果.png)
+![Bingo~](/在Windows上使用SSHFS/效果.png)
 
 P.S. 借助SSHFS，我终于可以在Windows系统中有一个好用的Linux开发环境了（bash on Windows有太多问题，不行）。现在采用的做法是安装一个不带图形界面的裸Debian虚拟机，添加一块Host-only网卡，配置开机自动启动SSH服务器，然后最小化虚拟机窗口，用自己喜欢的SSH客户端操作它、用SSHFS在本地挂载其中的文件，用gVim舒适地编辑程序。
 
