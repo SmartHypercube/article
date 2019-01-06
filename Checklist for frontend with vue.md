@@ -1,0 +1,8 @@
+- `script[src]`
+- `#app`
+- `form[@submit.prevent]`
+- `button[type]`
+- `input[v-model]`
+- `input[required]`
+- `[@click]`
+- `[:disabled]`
